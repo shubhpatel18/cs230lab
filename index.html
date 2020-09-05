@@ -9,6 +9,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- icons -->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
     <style>
         :root {
             --green: #49d049;
@@ -32,20 +37,26 @@
         }
 
         body {
-            font-family: "Segoe UI", sans-serif;
+            font-family: 'Raleway', sans-serif;
             text-align: center;
             background: #eeeeff;
             color: var(--dark-gray);
         }
 
+        .logo {
+            font-family: 'Architects Daughter', cursive;
+        }
+
         h1 {
             font-size: 3vw;
+            font-family: 'Lato', sans-serif;
         }
 
         h2 {
             font-size: 2vw;
             margin-top: 2vw;
             margin-bottom: 2vw;
+            font-family: 'Lato', sans-serif;
         }
 
         img {
@@ -65,7 +76,7 @@
 <nav class="navbar navbar-expand-sm navbar-dark fixed-top"
      style="background: var(--green); box-shadow: 0 .25vw .5vw #888888">
     <div class="container">
-        <a class="navbar-brand" href="#ourteam"
+        <a class="navbar-brand logo" href="#ourteam"
            style="font-size: 2vw">Garden Gurus</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
