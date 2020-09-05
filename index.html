@@ -70,6 +70,23 @@
         a:hover, a:active {
             color: var(--brown);
         }
+
+        .btn-social-icon:link, .btn-social-icon:visited {
+            color: var(--brown);
+        }
+
+        .btn-social-icon:hover, .btn-social-icon:active {
+            color: var(--green);
+        }
+
+        .btn-social-icon {
+            height: 2.5rem;
+            width: 2.5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+        }
     </style>
 </head>
 <body>
@@ -133,13 +150,13 @@
         <div class="row align-items-center">
             <div class="col-sm-4 text-sm-left"><a href="#!">Contact</a></div>
             <div class="col-sm-4 my-3 my-sm-0">
-                <a class="btn btn-dark btn-social mx-2" href="#!">
+                <a class="btn btn-dark btn-social-icon mx-2" href="#!">
                     <em class="fab fa-twitter"></em>
                 </a>
-                <a class="btn btn-dark btn-social mx-2" href="#!">
+                <a class="btn btn-dark btn-social-icon mx-2" href="#!">
                     <em class="fab fa-facebook-f"></em>
                 </a>
-                <a class="btn btn-dark btn-social mx-2" href="#!">
+                <a class="btn btn-dark btn-social-icon mx-2" href="#!">
                     <em class="fab fa-instagram"></em>
                 </a>
             </div>
