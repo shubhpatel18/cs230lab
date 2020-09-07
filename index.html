@@ -13,12 +13,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 
     <style>
         :root {
             --green: #49d049;
             --dark-gray: #222222;
             --brown: #d9b38c;
+            --bg-primary: #eeeeff;
+            --bg-secondary: #ffffff;
         }
 
         .portrait {
@@ -39,12 +42,16 @@
         body {
             font-family: 'Raleway', sans-serif;
             text-align: center;
-            background: #eeeeff;
+            background: var(--bg-primary);
             color: var(--dark-gray);
         }
 
         .logo {
             font-family: 'Architects Daughter', cursive;
+        }
+
+        .nav-item {
+            font-family: 'Montserrat', sans-serif;
         }
 
         h1 {
@@ -91,7 +98,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-sm navbar-dark fixed-top"
-     style="background: var(--green); box-shadow: 0 .25vw .5vw #888888">
+     style="background: var(--green); box-shadow: 0 .25vw .5vw #44444499">
     <div class="container">
         <a class="navbar-brand logo" href="#ourteam"
            style="font-size: 2vw">Garden Gurus</a>
