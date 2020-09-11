@@ -2,11 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Garden Gurus</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
     <!-- icons -->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
     <!-- fonts -->
@@ -15,109 +25,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 
-    <style>
-        :root {
-            --green: #49d049;
-            --dark-gray: #222222;
-            --brown: #d9b38c;
-            --bg-primary: #eeeeff;
-            --bg-secondary: #ffffff;
-        }
-
-        .portrait {
-            width: 18vw;
-            height: 24vw;
-        }
-
-        .text {
-            margin-left: 2vw;
-            margin-right: 2vw;
-        }
-
-        p {
-            margin-left: 1vw;
-            margin-right: 1vw;
-        }
-
-        body {
-            font-family: 'Raleway', sans-serif;
-            text-align: center;
-            background: var(--bg-primary);
-            color: var(--dark-gray);
-        }
-
-        .logo {
-            font-family: 'Architects Daughter', cursive;
-        }
-
-        .nav-item {
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        h1 {
-            font-size: 3vw;
-            font-family: 'Lato', sans-serif;
-        }
-
-        h2 {
-            font-size: 2vw;
-            margin-top: 2vw;
-            margin-bottom: 2vw;
-            font-family: 'Lato', sans-serif;
-        }
-
-        img {
-            margin-bottom: 1vw;
-        }
-
-        a:link, a:visited {
-            color: var(--green);
-        }
-
-        a:hover, a:active {
-            color: var(--brown);
-        }
-
-        .btn-social-icon:link, .btn-social-icon:visited {
-            color: var(--brown);
-        }
-
-        .btn-social-icon:hover, .btn-social-icon:active {
-            color: var(--green);
-        }
-
-        .btn-social-icon {
-            height: 2.5rem;
-            width: 2.5rem;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/about.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-sm navbar-dark fixed-top"
-     style="background: var(--green); box-shadow: 0 .25vw .5vw #44444499">
+     style="background: var(--green); box-shadow: 0 .5vh 1vh #44444499">
     <div class="container">
         <a class="navbar-brand logo" href="#ourteam"
-           style="font-size: 2vw">Garden Gurus</a>
+           style="font-size: 1.5rem">Garden Gurus</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
             Menu
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse">
             <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#ourteam" style="">Our Team</a>
+                    <a class="nav-link" href="about.html#ourteam" style="">Our Team</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html" style="">Login</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 <div id="ourteam">
-    <h1 style="padding-top: 8vw; padding-bottom: 2vw">Our Team</h1>
+    <h1 style="padding-top: 16vh; padding-bottom: 4vh">Our Team</h1>
     <div class="container">
         <div class="row">
             <div class="col-sm">
@@ -157,17 +94,17 @@
         <div class="row align-items-center">
             <div class="col-sm-4 text-sm-left"><a href="#!">Contact</a></div>
             <div class="col-sm-4 my-3 my-sm-0">
-                <a class="btn btn-dark btn-social-icon mx-2" href="#!">
+                <a class="btn btn-dark btn-social-icon" href="#!">
                     <em class="fab fa-twitter"></em>
                 </a>
-                <a class="btn btn-dark btn-social-icon mx-2" href="#!">
+                <a class="btn btn-dark btn-social-icon" href="#!">
                     <em class="fab fa-facebook-f"></em>
                 </a>
-                <a class="btn btn-dark btn-social-icon mx-2" href="#!">
+                <a class="btn btn-dark btn-social-icon" href="#!">
                     <em class="fab fa-instagram"></em>
                 </a>
             </div>
-            <div class="col-sm-4 text-sm-right">Copyright © Garden Gurus 2020</div>
+            <div class="col-sm-4 text-sm-right">Copyright © Garden Gurus LLC, 2020</div>
         </div>
     </div>
 </footer>
