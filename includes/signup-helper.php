@@ -4,15 +4,15 @@ if (isset($_POST['signup-submit'])) {
 
     require "dbhandler.php";
 
-    $fname = $_POST('fname');
-    $lname = $_POST('lname');
-    $username = $_POST('uname');
-    $email = $_POST('email');
-    $password = $_POST('password');
-    $confirm_password = $_POST('confirm_password');
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $username = $_POST['uname'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $confirm_password = $_POST['confirm_password'];
 
     if ($password !== $confirm_password) {
-        header("Location: ../signup.php?error=diffPasswords&fname=".$fname."&lname=".$lname."&uname=".$username."&email=".$email."");
+        header("Location: ../signup.php?error=diffPasswords&fname=" . $fname . "&lname=" . $lname . "&uname=" . $username . "&email=" . $email . "");
         exit();
 
     } else {
@@ -28,7 +28,7 @@ if (isset($_POST['signup-submit'])) {
             mysqli_stmt_store_result($stmt);
             $check = mysqli_stmt_num_rows($stmt);
 
-            if($check > 0) {
+            if ($check > 0) {
                 header("Location: ../signup.php?error=UsernameTaken&fname=" . $fname . "&lname=" . $lname . "&email=" . $email . "");
                 exit();
 

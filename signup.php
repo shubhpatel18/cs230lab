@@ -16,7 +16,8 @@ require "includes/header.php"
             </div>
             <div class="col-sm-6">
                 <div class="my-auto">
-                    <form class="form-signin rounded" style="background: var(--brown)">
+                    <form class="form-signup rounded" style="background: var(--brown)"
+                        action="includes/signup-helper.php" method="post">
                         <img class="mb-3 rounded-circle" src="images/login/gnome.jpg" alt=""
                              style="width: 7.5vw; height: 7.5vw"/>
                         <h4 class="h4 mb-2 font-weight-normal">Register</h4>
