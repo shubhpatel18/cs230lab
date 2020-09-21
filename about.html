@@ -41,10 +41,10 @@
                 aria-label="Toggle navigation">
             Menu
         </button>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#!" style="">Home</a> <!-- TODO update logo link -->
+                    <a class="nav-link" href="#!" style="">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -59,8 +59,21 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="about.html" style="">Our Team</a>
                 </li>
+            </ul>
+            <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="login.html" style="">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.php" style="">Sign Up</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
                 </li>
             </ul>
         </div>

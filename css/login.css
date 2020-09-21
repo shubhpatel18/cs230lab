@@ -8,10 +8,10 @@ body {
 body::before {
     content: "";
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-color: var(--bg-primary-transparent);
     background-size: cover;
 }
@@ -24,7 +24,6 @@ body::before {
 .form-signin {
     padding: 2rem 2rem 1rem;
     margin: 0 1rem 2rem;
-    height: 68vh;
 }
 
 .carousel .carousel-indicators li {
@@ -41,10 +40,6 @@ body::before {
 
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-
-.carousel-item img {
-    height: 68vh;
 }
 
 .carousel-item h5 {
