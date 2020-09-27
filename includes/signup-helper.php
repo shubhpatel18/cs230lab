@@ -2,7 +2,7 @@
 
 if (isset($_POST['signup-submit'])) {
 
-    require "dbhandler.php";
+    require 'dbhandler.php';
 
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
@@ -57,6 +57,6 @@ if (isset($_POST['signup-submit'])) {
     }
 
 } else {
-    header("Location: ../signup.php?error=BypassSignUp");
+    header("Location: ../signup.php?error=NotSignedUp");
     exit();
 }

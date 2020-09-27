@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/login.css">
-</head>
+<head><title>Login</title></head>
+</html>
 
 <?php
 require "includes/header.php"
 ?>
 
-<body>
-
+<main>
+<link rel="stylesheet" href="css/login.css">
 <div style="position: relative">
     <div class="container">
         <h1>Login to enjoy these great perks!</h1>
@@ -61,18 +57,24 @@ require "includes/header.php"
             </div>
             <div class="col-sm-4">
                 <div class="my-auto">
-                    <form class="form-signin rounded" style="background: var(--brown)">
+                    <form class="form-signin rounded" style="background: var(--brown)"
+                          action="includes/login-helper.php" method="post">
                         <img class="mb-3 rounded-circle" src="images/login/gnome.jpg" alt=""
                              style="width: 7.5vw; height: 7.5vw"/>
                         <h4 class="h4 mb-2 font-weight-normal">Please sign in</h4>
-                        <label for="inputEmail" class="sr-only">Email address</label>
-                        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+                        <label for="input_uname_email" class="sr-only">Username or Email address</label>
+                        <input type="text" id="input_uname_email" class="form-control"
+                               name="uname_email" placeholder="Username/Email address" required>
                         <label for="inputPassword" class="sr-only">Password</label>
-                        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                        <input type="password" id="inputPassword" class="form-control"
+                               name="password" placeholder="Password" required>
                         <div class="checkbox mb-3">
-                            <label><input type="checkbox" value="remember-me"> Remember me</label>
+                            <label>
+                                <input type="checkbox" value="remember-me" name="remember-me">
+                                Remember me</label>
                         </div>
-                        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                        <button class="btn btn-lg btn-primary btn-block" type="submit"
+                                name="login-submit">Sign in</button>
                         <p class="text-muted">&copy; 2020</p>
                     </form>
                 </div>
@@ -81,10 +83,8 @@ require "includes/header.php"
     </div>
 </div>
 
-</body>
+</main>
 
 <?php
 require "includes/footer.php"
 ?>
-
-</html>

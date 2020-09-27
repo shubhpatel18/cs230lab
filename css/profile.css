@@ -1,0 +1,6 @@
+.center-me {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
