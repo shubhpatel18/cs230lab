@@ -26,3 +26,8 @@ body::before {
     margin: 0 1rem 2rem;
     height: 37rem;
 }
+
+.footer {
+    box-shadow: 0 -.5vh 1vh #44444499;
+    position: relative;
+}

@@ -26,14 +26,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/signup.css">
-
 </head>
+
 <header>
 <nav class="navbar navbar-expand-sm navbar-dark fixed-top"
      style="background: var(--green); box-shadow: 0 .5vh 1vh #44444499">
     <div class="container">
-        <a class="navbar-brand logo" href="../about.html"
+        <a class="navbar-brand logo" href="../about.php"
            style="font-size: 1.5rem">Garden Gurus</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -56,14 +55,14 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../about.html" style="">Our Team</a>
+                    <a class="nav-link" href="../about.php" style="">Our Team</a>
                 </li>
             </ul>
             <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../login.html" style="">Login</a>
+                    <a class="nav-link" href="../login.php" style="">Login</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="../signup.php" style="">Sign Up</a>
                 </li>
             </ul>

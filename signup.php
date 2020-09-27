@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="css/signup.css">
 </head>
 
 <?php
@@ -17,7 +20,7 @@ require "includes/header.php"
             <div class="col-sm-6">
                 <div class="my-auto">
                     <form class="form-signup rounded" style="background: var(--brown)"
-                        action="includes/signup-helper.php" method="post">
+                          action="includes/signup-helper.php" method="post">
                         <img class="mb-3 rounded-circle" src="images/login/gnome.jpg" alt=""
                              style="width: 7.5vw; height: 7.5vw"/>
                         <h4 class="h4 mb-2 font-weight-normal">Register</h4>
@@ -60,7 +63,7 @@ require "includes/header.php"
                             <button class="btn btn-lg btn-primary btn-block" type="submit"
                                     style="margin-top: 2rem" name="signup-submit">Register
                             </button>
-                            <div class="text-muted">Already have an account? <a href="login.html">Sign in</a></div>
+                            <div class="text-muted">Already have an account? <a href="login.php">Sign in</a></div>
                         </div>
                     </form>
                 </div>
