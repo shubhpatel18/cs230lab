@@ -1,3 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+main {
+    position: relative;
+}
+
 :root {
     --white: #ffffff;
     --green: #49d049;
@@ -5,16 +14,12 @@
     --brown: #d9b38c;
     --brown-transparent: rgba(171, 141, 111, 0.69);
     --bg-primary: #fffff0;
-    --bg-primary-transparent: #fffff099; <!-- increase opacity to cover background -->
+    --bg-primary-transparent: #fffff099; /* increase opacity to cover background */
     --bg-secondary: #ffffff;
 }
 
 .logo {
     font-family: 'Architects Daughter', cursive;
-}
-
-.nav-item {
-    font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,8 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 2rem;
-    padding-top: 16vh;
-    padding-bottom: 4vh;
+    padding-bottom: 1.2rem;
     text-align: center;
 }
 
@@ -52,11 +56,13 @@ body {
     background-color: var(--bg-primary);
     color: var(--dark-gray);
     min-height: 100vh;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
-footer {
-    background-color: var(--bg-primary);
-    width: 100%
+form {
+    padding: 2rem 2rem 2rem;
+    margin: 0 1rem 2rem;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus,
@@ -78,23 +84,4 @@ a:link, a:visited {
 
 a:hover, a:active {
     color: var(--brown);
-}
-
-.btn-social-icon:link, .btn-social-icon:visited {
-    color: var(--brown);
-}
-
-.btn-social-icon:hover, .btn-social-icon:active {
-    color: var(--green);
-}
-
-.btn-social-icon {
-    height: 2.5rem;
-    width: 2.5rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    margin-left: .5vh;
-    margin-right: .5vh;
 }

@@ -4,12 +4,13 @@
 </html>
 
 <?php
-require "includes/header.php"
+require 'includes/header.php';
+require 'includes/footer.php';
 ?>
 
 <main>
-<link rel="stylesheet" href="css/login.css">
-<div style="position: relative">
+    <link rel="stylesheet" href="css/footer-shadow.css">
+    <link rel="stylesheet" href="css/login.css">
     <div class="container">
         <h1>Login to enjoy these great perks!</h1>
     </div>
@@ -45,11 +46,13 @@ require "includes/header.php"
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                       data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                       data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -57,7 +60,7 @@ require "includes/header.php"
             </div>
             <div class="col-sm-4">
                 <div class="my-auto">
-                    <form class="form-signin rounded" style="background: var(--brown)"
+                    <form class="rounded" style="background: var(--brown); height: 25rem;"
                           action="includes/login-helper.php" method="post">
                         <img class="mb-3 rounded-circle" src="images/login/gnome.jpg" alt=""
                              style="width: 7.5vw; height: 7.5vw"/>
@@ -74,17 +77,13 @@ require "includes/header.php"
                                 Remember me</label>
                         </div>
                         <button class="btn btn-lg btn-primary btn-block" type="submit"
-                                name="login-submit">Sign in</button>
+                                name="login-submit">Sign in
+                        </button>
                         <p class="text-muted">&copy; 2020</p>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 </main>
-
-<?php
-require "includes/footer.php"
-?>

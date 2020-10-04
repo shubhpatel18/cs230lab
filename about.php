@@ -4,7 +4,8 @@
 </html>
 
 <?php
-require 'includes/header.php'
+require 'includes/header.php';
+require 'includes/footer.php';
 ?>
 
 <main>
@@ -49,7 +50,3 @@ require 'includes/header.php'
         </div>
     </div>
 </main>
-
-<?php
-require "includes/footer.php"
-?>

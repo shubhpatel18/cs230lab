@@ -32,6 +32,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/header.css">
 </head>
 
 <header>
@@ -90,8 +91,8 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item">
                         <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                            style="border-radius: 2rem; height: 1.8rem">
                         </form>
                     </li>
                 </ul>

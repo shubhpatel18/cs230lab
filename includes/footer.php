@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
 <footer class="footer py-4">
     <div class="container">
         <div class="row align-items-center">

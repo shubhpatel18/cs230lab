@@ -4,3 +4,13 @@
     padding: 40px;
     text-align: center;
 }
+
+#prof-display {
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+#uname-style {
+}

@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>test</title>
-</head>
-
-<body>
-
-<h1>PHP Test</h1>
-
-<?php echo "test" ?>
-
-</body>
+<head><title>test</title></head>
 </html>
+
+<?php
+require 'includes/header.php';
+require 'includes/footer.php';
+?>
+
+<main>
+<?php echo "<h1>Default Page</h1>" ?>
+</main>
