@@ -16,11 +16,6 @@ body::before {
     background-size: cover;
 }
 
-.center-me {
-    display: flex;
-    justify-content: center;
-}
-
 #sign-in-link, #sign-in-link:hover, #sign-in-link:active {
     color: var(--bg-primary);
 }
