@@ -5,3 +5,9 @@ nav {
 .nav-item {
     font-family: 'Montserrat', sans-serif;
 }
+
+#search-bar {
+    border-radius: 2rem;
+    height: 1.8rem;
+    padding: 0 .8rem 0;
+}

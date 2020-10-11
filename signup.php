@@ -15,7 +15,7 @@ require 'includes/footer.php';
     <link rel="stylesheet" href="css/signup.css">
     <div class="container">
         <div class="col-sm-6 offset-sm-3 my-auto">
-            <form class="rounded" style="background: var(--brown); height: 37rem;"
+            <form class="rounded" style="margin-bottom: 2rem"
                   action="includes/signup-helper.php" method="post">
                 <img class="mb-3 rounded-circle" src="images/login/gnome.jpg" alt=""
                      style="width: 7.5vw; height: 7.5vw"/>

@@ -34,7 +34,7 @@ if(!in_array($ext, $allowed)) {
     exit();
 }
 
-if($file_size > 4*MB) {
+if($file_size > 12*MB) {
     header("Location: ../profile.php?error=FileSizeExceeded");
     exit();
 }

@@ -39,7 +39,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top"
          style="background: var(--green); box-shadow: 0 .5vh 1vh #44444499">
         <div class="container">
-            <a class="navbar-brand logo" href="../about.php"
+            <a class="navbar-brand logo" href="../home.php"
                style="font-size: 1.5rem">Garden Gurus</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                     data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -49,7 +49,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#!">Home</a>
+                        <a class="nav-link" href="../gallery.php">Gallery</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -68,33 +68,34 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <?php
                     if (!isset($_SESSION['uname'])) {
-                        echo '
-                            <li class="nav-item">
-                                <a class="nav-link" href="../login.php">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../signup.php">Sign Up</a>
-                            </li>
-                        ';
+                        ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../login.php">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../signup.php">Sign Up</a>
+                        </li>
+                        <?php
                     } else {
-                        echo '
-                            <li class="nav-item">
-                                <a class="nav-link" href="../includes/logout.php">Logout</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../profile.php">Profile</a>
-                            </li>
-                        ';
+                        ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../includes/logout.php">Logout</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../profile.php">Profile</a>
+                        </li>
+                        <?php
+                        if ($_SESSION['uname'] == 'shubhpatel18') {
+                        ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../admin.php">Admin</a>
+                        </li>
+                        <?php
+                        }
+                        ?>
+                        <?php
                     }
                     ?>
-                </ul>
-                <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item">
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
-                            style="border-radius: 2rem; height: 1.8rem">
-                        </form>
-                    </li>
                 </ul>
             </div>
         </div>

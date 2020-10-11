@@ -61,8 +61,10 @@ body {
 }
 
 form {
-    padding: 2rem 2rem 2rem;
-    margin: 0 1rem 2rem;
+    padding: 2rem 2rem 1rem;
+    margin: 0 1rem;
+    background: var(--brown);
+    box-shadow: #44444499 0 0 .25rem;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus,

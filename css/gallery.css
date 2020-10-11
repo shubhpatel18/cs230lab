@@ -1,0 +1,33 @@
+img {
+    height: 15rem;
+    margin-bottom: 1rem;
+}
+
+.wrapper {
+    justify-content: center;
+}
+
+.gallery-container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 1.8rem; /* center container */
+}
+
+.card {
+    background: var(--brown);
+    margin: 0 2rem 2rem 0;
+    padding: 1rem 1rem 0;
+    box-shadow: #44444499 0 0 .25rem;
+}
+
+.gallery-container a{
+    color: var(--white);
+}
+
+.gallery-container a:hover{
+    color: var(--green);
+    text-decoration: none;
+}
