@@ -51,16 +51,6 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
                     <li class="nav-item">
                         <a class="nav-link" href="../gallery.php">Gallery</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false">
-                            Services
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Decorations</a>
-                            <a class="dropdown-item" href="#">Landscaping</a>
-                        </div>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../about.php">Our Team</a>
                     </li>

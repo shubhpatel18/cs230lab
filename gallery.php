@@ -12,8 +12,9 @@ require 'includes/dbhandler.php';
 
 ?>
 
+<link rel="stylesheet" href="css/gallery.css">
+
 <main>
-    <link rel="stylesheet" href="css/gallery.css">
     <h1>Gallery</h1>
     <div class="gallery-container">
         <?php

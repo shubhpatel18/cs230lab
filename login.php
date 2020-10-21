@@ -8,15 +8,17 @@ require 'includes/header.php';
 require 'includes/footer.php';
 ?>
 
-<main>
+<link rel="stylesheet" href="css/background-image.css">
+<link rel="stylesheet" href="css/login.css">
 
-    <link rel="stylesheet" href="css/footer-shadow.css">
-    <link rel="stylesheet" href="css/login.css">
+<main>
     <div class="container">
         <h1>Login to enjoy these great perks!</h1>
     </div>
+
     <div class="container">
         <div class="row" style="margin-bottom: 2rem;">
+
             <div class="col-sm-8">
                 <div id="carouselExampleIndicators" class="carousel slide"
                      data-ride="carousel" style="box-shadow: #44444499 0 0 .25rem;">
@@ -57,6 +59,7 @@ require 'includes/footer.php';
                     </a>
                 </div>
             </div>
+
             <div class="col-sm-4">
                 <form class="rounded" style="height: 25rem"
                       action="includes/login-helper.php" method="post">
@@ -83,7 +86,7 @@ require 'includes/footer.php';
                     </div>
                 </form>
             </div>
+
         </div>
     </div>
-
 </main>

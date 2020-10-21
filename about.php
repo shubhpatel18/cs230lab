@@ -8,8 +8,9 @@ require 'includes/header.php';
 require 'includes/footer.php';
 ?>
 
+<link rel="stylesheet" href="css/about.css">
+
 <main>
-    <link rel="stylesheet" href="css/about.css">
     <div>
         <div class="container">
             <h1>Meet Our Team</h1>

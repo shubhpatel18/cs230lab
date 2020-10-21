@@ -10,9 +10,10 @@ require 'includes/header.php';
 require 'includes/footer.php';
 ?>
 
+<link rel="stylesheet" href="css/background-image.css">
+<link rel="stylesheet" href="css/signup.css">
+
 <main>
-    <link rel="stylesheet" href="css/footer-shadow.css">
-    <link rel="stylesheet" href="css/signup.css">
     <div class="container">
         <div class="col-sm-6 offset-sm-3 my-auto">
             <form class="rounded" style="margin-bottom: 2rem"

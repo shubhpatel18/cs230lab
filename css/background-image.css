@@ -1,0 +1,21 @@
+body {
+    position: relative;
+    background-image: url("../images/login/garden.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--bg-primary-transparent);
+    background-size: cover;
+}
+
+footer {
+    box-shadow: 0 -.5vh 1vh #44444499;
+}

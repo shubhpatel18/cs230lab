@@ -24,12 +24,13 @@ $photo = $row['picpath'];
 $bio = $row['bio'];
 ?>
 
-<main>
-    <link rel="stylesheet" href="css/profile.css">
-    <script src="js/prof-display.js"></script>
+<link rel="stylesheet" href="css/profile.css">
+<script src="js/prof-display.js"></script>
 
+<main>
     <div class="container">
         <div class="col-sm-4 offset-sm-4" style="padding: 0 2rem; margin-top: 1.6rem">
+
             <form class="rounded" style="background: var(--brown);"
                   action="includes/upload-helper.php" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
@@ -50,7 +51,7 @@ $bio = $row['bio'];
                     </button>
                 </div>
             </form>
+
         </div>
     </div>
-
 </main>

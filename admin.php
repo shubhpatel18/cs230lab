@@ -21,13 +21,12 @@ require 'includes/footer.php';
 require 'includes/dbhandler.php';
 ?>
 
+<link rel="stylesheet" href="css/admin.css">
+<script src="js/prof-display.js"></script>
+<script src="js/upload-display.js"></script>
+
 <main>
-    <link rel="stylesheet" href="css/admin.css">
-    <script src="js/prof-display.js"></script>
-    <script src="js/upload-display.js"></script>
-
     <div class="container">
-
         <div class="col-sm-4 offset-sm-4" style="padding: 0 2rem; margin-top: .8rem">
             <form class="rounded"
                   action="includes/gallery-helper.php" method="POST" enctype="multipart/form-data">
@@ -51,7 +50,5 @@ require 'includes/dbhandler.php';
                 </div>
             </form>
         </div>
-
     </div>
-
 </main>
