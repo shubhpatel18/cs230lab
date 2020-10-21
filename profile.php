@@ -4,14 +4,16 @@
 </html>
 
 <?php
-require 'includes/header.php';
-require 'includes/footer.php';
-require 'includes/dbhandler.php';
+session_start();
 
 if (!isset($_SESSION['uname'])) {
     header("Location: ../login.php?error=NotLoggedIn");
     exit();
 }
+
+require 'includes/header.php';
+require 'includes/footer.php';
+require 'includes/dbhandler.php';
 
 $prof_user = $_SESSION['uname'];
 $sqlpro = "SELECT * FROM profile WHERE uname='$prof_user';";

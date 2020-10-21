@@ -27,21 +27,19 @@ require 'includes/footer.php';
                     </ol>
                     <div class="carousel-inner rounded">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="images/login/carousel/personal_gnomes.jpg"
-                                 alt="Third slide">
+                            <img class="d-block w-100" src="images/login/carousel/personal_gnomes.jpg" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Get personalized lawn decorations!</h5>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/login/carousel/customer_service.jpg"
-                                 alt="Second slide">
+                            <img class="d-block w-100" src="images/login/carousel/customer_service.jpg" alt="Second slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Get access to excellent customer service!</h5>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/login/carousel/discount.jpg" alt="First slide">
+                            <img class="d-block w-100" src="images/login/carousel/discount.jpg" alt="Third slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Get exclusive discounts!</h5>
                             </div>
@@ -64,7 +62,7 @@ require 'includes/footer.php';
                       action="includes/login-helper.php" method="post">
                     <div class="form-group">
                         <img class="mb-3 rounded-circle" src="images/login/gnome.jpg" alt=""
-                             style="width: 7.5vw; height: 7.5vw"/>
+                             style="width: 7rem; height: 7rem"/>
                         <h4 class="h4 mb-2 font-weight-normal">Please sign in</h4>
                     </div>
                     <div class="form-group">

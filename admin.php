@@ -6,8 +6,13 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['uname']) && $_SESSION['uname' == 'shubhpatel18']) {
+if (!isset($_SESSION['uname'])) {
     header("Location: ../login.php?error=NotLoggedIn");
+    exit();
+}
+
+if ($_SESSION['uname'] !== 'shubhpatel18') {
+    header("Location: ../login.php?error=NonAdminUser");
     exit();
 }
 

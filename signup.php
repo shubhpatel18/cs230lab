@@ -18,7 +18,7 @@ require 'includes/footer.php';
             <form class="rounded" style="margin-bottom: 2rem"
                   action="includes/signup-helper.php" method="post">
                 <img class="mb-3 rounded-circle" src="images/login/gnome.jpg" alt=""
-                     style="width: 7.5vw; height: 7.5vw"/>
+                     style="width: 7rem; height: 7rem"/>
                 <h4 class="h4 mb-2 font-weight-normal">Register</h4>
                 <h6 class="h4 mb-2 font-weight-normal" style="font-size: 1rem">
                     Create your Garden Gurus account.</h6>
