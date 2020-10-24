@@ -39,8 +39,8 @@ require 'includes/dbhandler.php';
                            placeholder="Title" style="text-align: center" required>
                 </div>
                 <div class="form-group">
-                        <textarea class="rounded" name="descript" id="descript" rows="3" placeholder="Description..."
-                                  style="text-align: center;" required
+                        <textarea class="form-control rounded" name="descript" id="descript" rows="3"
+                                  placeholder="Description..." style="text-align: center;" required
                         ></textarea>
                 </div>
                 <div class="form-group">

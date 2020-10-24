@@ -15,7 +15,7 @@ require 'includes/dbhandler.php';
 <link rel="stylesheet" href="css/gallery.css">
 
 <main>
-    <h1>Gallery</h1>
+    <h1>Check out our work!</h1>
     <div class="gallery-container">
         <?php
         require_once 'includes/dbhandler.php';
@@ -30,7 +30,7 @@ require 'includes/dbhandler.php';
             while ($row = mysqli_fetch_assoc($result)) {
                 ?>
                 <div class="card">
-                    <a href="#">
+                    <a href="review.php?id=<?php echo $row['pid'] ?>">
                         <img src="services/<?= $row['picpath']; ?>" class="rounded" alt="">
                         <h4><?= $row['title'] ?></h4>
                         <p><?= $row['descript'] ?></p>

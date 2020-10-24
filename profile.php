@@ -31,7 +31,7 @@ $bio = $row['bio'];
     <div class="container">
         <div class="col-sm-4 offset-sm-4" style="padding: 0 2rem; margin-top: 1.6rem">
 
-            <form class="rounded" style="background: var(--brown);"
+            <form class="rounded"
                   action="includes/upload-helper.php" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                     <img class="mb-3 rounded-circle" src="<?= $photo ?>"
@@ -41,8 +41,8 @@ $bio = $row['bio'];
                            onchange="preview(this)" class="form-control" style="display: none">
                 </div>
                 <div class="form-group">
-                    <textarea class="rounded" name="bio" id="bio" rows="4"
-                              placeholder="Bio..." style="text-align: center; width:100%"
+                    <textarea class="form-control rounded" name="bio" id="bio" rows="4"
+                              placeholder="Bio..."
                     ><?php if ($bio !== null) echo $bio; ?></textarea>
                 </div>
                 <div class="form-group">

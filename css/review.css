@@ -1,0 +1,30 @@
+#star-select, #review-title {
+    margin-bottom: 1rem;
+}
+
+#review-display {
+    height: 21rem;
+    width: 28rem;
+    margin-bottom: 1rem;
+}
+
+.review {
+    background: var(--green);
+    margin: 1rem 3rem;
+    padding: 1rem 1rem 0;
+    box-shadow: #44444499 0 0 .25rem;
+}
+
+.prof-img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.media-body {
+    text-align: left;
+}
+
+.timestamp {
+    text-align: right;
+    font-size: 70%;
+}
