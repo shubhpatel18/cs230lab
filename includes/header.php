@@ -35,12 +35,14 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top"
          style="background: var(--green); box-shadow: 0 .5vh 1vh #44444499">
         <div class="container">
-            <a class="navbar-brand logo" href="../index.php"
-               style="font-size: 1.5rem">Garden Gurus</a>
+            <a class="navbar-brand logo js-scroll-trigger" href="../index.php" style="font-size: 1.5rem">
+                Garden Gurus
+            </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                     data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                     aria-label="Toggle navigation">
                 Menu
+                <em class="fas fa-bars ml-1"></em>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">

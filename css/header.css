@@ -1,5 +1,9 @@
 nav {
-    height: 3rem;
+    min-height: 3rem;
+}
+
+.navbar {
+    padding: 0;
 }
 
 .nav-item {
