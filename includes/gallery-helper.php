@@ -35,7 +35,7 @@ if(!in_array($ext, $allowed)) {
     exit();
 }
 
-if($file_size > 12*MB) {
+if($file_size > 16*MB) {
     header("Location: ../admin.php?error=FileSizeExceeded");
     exit();
 }

@@ -22,7 +22,6 @@ require 'includes/dbhandler.php';
 ?>
 
 <link rel="stylesheet" href="css/admin.css">
-<script src="js/prof-display.js"></script>
 <script src="js/upload-display.js"></script>
 
 <main>
