@@ -44,8 +44,8 @@ try {
         'version' => 'latest',
         'region' => 'us-east-1',
         'credentials' => [
-            'key' => 'AKIAR3K3T7N37DC7EBLH',
-            'secret' => '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'
+            'key' => '',
+            'secret' => ''
         ]
     ]);
 
